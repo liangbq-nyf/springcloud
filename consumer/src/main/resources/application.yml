@@ -3,6 +3,9 @@ spring:
     name: consumer
 server:
   port: 8764
+model:
+  produce:
+    name: producer
 eureka:
   instance:
     register:
